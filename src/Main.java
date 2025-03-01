@@ -116,7 +116,7 @@ public class Main {
         System.out.print("Enter Space ID: ");
         int id = input.nextInt();
 
-        Boolean status = true;
+        boolean status = true;
 
         for (CoworkingSpaces it : coworkingSpaces) {
             if (it.getSpaceID() == id) {
@@ -298,7 +298,7 @@ public class Main {
                 }
             }
         }
-        System.out.println("\nSelect '1' to go back to the Admin Menu");
+        System.out.println("\nSelect '1' to go back to the Customer Menu");
         System.out.print("Enter your choice: ");
         int opt = input.nextInt();
         customerMenu();
@@ -367,7 +367,7 @@ public class Main {
                 cancelBooking();
             }
         }
-        System.out.println("\nSelect '1' to go back to the Admin Menu");
+        System.out.println("\nSelect '1' to go back to the Customer Menu");
         System.out.print("Enter your choice: ");
         int opt = input.nextInt();
         customerMenu();
